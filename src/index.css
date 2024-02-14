@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* CSS variables */
+:root {
+    /* Utils */
+    --section-padding: 1rem 3rem;
+
+    /* Background color */
+    --MAIN-BG: #e0e0e0c1;
+
+    /* Fonts */
+    --SMALLTEXT-COLOR: #3a3a3a;
+}
+
+/* Utils */
+
+/* General styles */
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+#main {
+    background: var(--MAIN-BG);
+    height: 100vh;
+}
+
+/* Styling header section */
+header {
+    padding: var(--section-padding);
+}
+
+.menu>li {
+    color: var(--SMALLTEXT-COLOR);
+}
