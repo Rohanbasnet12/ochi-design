@@ -14,15 +14,15 @@ function Navbar() {
 
       <div className="nav-right-sec items-center flex justify-between">
         <ul className="menu flex items-center gap-6">
-          {menu.map((item, index)=>(
-            <li key={index}><a key={index}>{item}</a></li>
-          ))}
+          <li><a href='#services'>Services</a></li>
+          <li><a href='#work'>Our work</a></li>
+          <li><a href='#about'>About us</a></li>
+          <li><a href='#insight'>Insights</a></li>
         </ul>
         <button>Contact us</button>
       </div>
 
-      <div className="hamMenu">
-      </div>
+      
     </header>
   );
 }

@@ -2,7 +2,10 @@ import React from 'react'
 
 const Landing = () => {
   return (
-    <div>
+    <div id='services'>
+        <div className="head">
+            
+        </div>
       
     </div>
   )

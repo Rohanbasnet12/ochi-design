@@ -40,6 +40,6 @@ header {
     padding: var(--section-padding);
 }
 
-.menu>li {
+.menu>a {
     color: var(--SMALLTEXT-COLOR);
 }
