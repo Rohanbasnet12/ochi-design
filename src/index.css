@@ -2,18 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* Reset CSS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 /* CSS variables */
 :root {
     /* Utils */
-    --section-padding: 1rem 3rem;
 
     /* Background color */
     --MAIN-BG: #e0e0e0c1;
@@ -37,9 +37,34 @@ body {
 
 /* Styling header section */
 header {
-    padding: var(--section-padding);
+    padding: 1rem 3rem;
 }
 
 .menu>a {
     color: var(--SMALLTEXT-COLOR);
+}
+
+/* Styling service section */
+#services {
+    width: 100%;
+    height: 100vh;
+}
+
+#service-head {
+    padding: 0 3rem;
+}
+
+#service-head>h1 {
+    letter-spacing: -9px;
+}
+
+#service-info {
+    padding: 0 3rem;
+    border-top: 1px solid #a3a3a3;
+}
+
+.rounded {
+    border: 1px solid #343434;
+    padding: 2px 10px;
+    border-radius: 20px;
 }
